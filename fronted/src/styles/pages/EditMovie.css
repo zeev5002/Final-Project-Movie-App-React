@@ -1,0 +1,25 @@
+.edit-movie-container {
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  .edit-movie-container input,
+  .edit-movie-container textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .edit-movie-container button {
+    background: #007bff;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .edit-movie-container button:hover {
+    background: #0056b3;
+  }
+  

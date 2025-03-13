@@ -1,0 +1,70 @@
+.new-movie-container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 30px;
+    background: white;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .new-movie-container h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .new-movie-container label {
+    font-size: 16px;
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .new-movie-container input,
+  .new-movie-container textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+  
+  .new-movie-container textarea {
+    height: 80px;
+    resize: none;
+  }
+  
+  /* ✅ שינוי מסגרת לאדום אם יש שגיאה */
+  .new-movie-container input.error,
+  .new-movie-container textarea.error {
+    border: 2px solid red;
+    background-color: #ffe6e6;
+  }
+  
+  .new-movie-container .error-message {
+    color: red;
+    font-size: 14px;
+    text-align: left;
+    margin-top: -10px;
+    margin-bottom: 10px;
+  }
+  
+  /* ✅ כפתור */
+  .new-movie-container button {
+    background: #28a745;
+    color: white;
+    font-size: 18px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .new-movie-container button:hover {
+    background: #218838;
+  }
+  
