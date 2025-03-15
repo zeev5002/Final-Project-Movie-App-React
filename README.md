@@ -82,6 +82,7 @@ my-final-project/
 │   └── db.json
 └──
 
+![image](https://github.com/user-attachments/assets/a259f671-028a-4dc3-92a1-721cf7ac5d8d)
 
 * **`fronted/`**: מכיל את קוד הצד הקדמי של האפליקציה (React).
 * **`Server/`**: מכיל את קובץ הנתונים (`db.json`) עבור ה-JSON Server.
