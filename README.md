@@ -56,3 +56,37 @@
 * **מחיקת סרט:** ניתן למחוק סרט על ידי לחיצה על כפתור "מחק" בדף פרטי הסרט.
 
 ## מבנה הפרויקט
+my-final-project/
+├── fronted/
+│   ├── node_modules/
+│   ├── public/
+│   │   └── ...
+│   ├── src/
+│   │   ├── components/
+│   │   │   └── MovieList.jsx
+│   │   ├── context/
+│   │   │   └── MovieContext.jsx
+│   │   ├── pages/
+│   │   │   ├── DeleteMovie.jsx
+│   │   │   ├── EditMovie.jsx
+│   │   │   ├── MovieDetails.jsx
+│   │   │   └── NewMovie.jsx
+│   │   ├── App.js
+│   │   ├── ...
+│   │   └── index.js
+│   ├── .gitignore
+│   ├── package-lock.json
+│   ├── package.json
+│   └── README.md
+├── Server/
+│   └── db.json
+└──
+
+
+* **`fronted/`**: מכיל את קוד הצד הקדמי של האפליקציה (React).
+* **`Server/`**: מכיל את קובץ הנתונים (`db.json`) עבור ה-JSON Server.
+* **`src/components/`**: מכיל רכיבי React שניתנים לשימוש חוזר.
+* **`src/context/`**: מכיל את קונטקסט הסרטים לניהול המצב הגלובלי.
+* **`src/pages/`**: מכיל דפים (views) של האפליקציה.
+* **`App.js`**: הרכיב הראשי של האפליקציה.
+* **`db.json`**: קובץ הנתונים של ה-JSON Server (מכיל את רשימת הסרטים).
