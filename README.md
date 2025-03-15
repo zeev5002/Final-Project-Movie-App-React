@@ -56,31 +56,6 @@
 * **מחיקת סרט:** ניתן למחוק סרט על ידי לחיצה על כפתור "מחק" בדף פרטי הסרט.
 
 ## מבנה הפרויקט
-my-final-project/
-├── fronted/
-│   ├── node_modules/
-│   ├── public/
-│   │   └── ...
-│   ├── src/
-│   │   ├── components/
-│   │   │   └── MovieList.jsx
-│   │   ├── context/
-│   │   │   └── MovieContext.jsx
-│   │   ├── pages/
-│   │   │   ├── DeleteMovie.jsx
-│   │   │   ├── EditMovie.jsx
-│   │   │   ├── MovieDetails.jsx
-│   │   │   └── NewMovie.jsx
-│   │   ├── App.js
-│   │   ├── ...
-│   │   └── index.js
-│   ├── .gitignore
-│   ├── package-lock.json
-│   ├── package.json
-│   └── README.md
-├── Server/
-│   └── db.json
-└──
 
 ![image](https://github.com/user-attachments/assets/a259f671-028a-4dc3-92a1-721cf7ac5d8d)
 
