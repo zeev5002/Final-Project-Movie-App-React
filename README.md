@@ -20,8 +20,7 @@
 1.  **Clone את המאגר:**
 
     ```bash
-    git clone <[YOUR_REPOSITORY_URL](https://github.com/zeev5002/Final-Project-Movie-App-React)>  ```
-
+    git clone https://github.com/zeev5002/Final-Project-Movie-App-React
 2.  **התקן את התלויות (dependencies) של הצד הקדמי:**
 
     ```bash
